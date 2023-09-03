@@ -9,6 +9,10 @@ app.all('/server',(req,res)=>{
 }) 
 
 app.get('/request',(req,res)=>{
+    // req.headers
+    // req.query
+    // req.body
+    // req.params
     res.send({
         status:201,
         value:'成功'
