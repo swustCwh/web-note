@@ -4,9 +4,9 @@
 
 const axios = require('axios')
 
-// axios.get('http://127.0.0.1:8004/request').then(res => {
-//     console.log(res.data)
-// })
+axios.get('http://127.0.0.1:8004/request').then(res => {
+    console.log(res.data)
+})
 
 axios({
     method: 'get',

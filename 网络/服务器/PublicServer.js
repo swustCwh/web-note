@@ -8,7 +8,7 @@ app.all('/server',(req,res)=>{
     })
 }) 
 
-app.all('/request',(req,res)=>{
+app.get('/request',(req,res)=>{
     res.send({
         status:201,
         value:'成功'
