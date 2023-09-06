@@ -52,21 +52,21 @@ instance.post('/server',body,config)
 /**
  * 通用请求格式
  */
-instance({
-    method: 'get',
-    // 路径参数
-    url: '/request/params/name',
-    // 请求体参数
-    data:{
-        name:'name'
-    },
-    // 查询字符串参数
-    params:{
-        data:'params'
-    },
-    headers:{
-        data:'header'
-    }
-}).then(res=>{
-    console.log(res.data)
-})
+// instance({
+//     method: 'get',
+//     // 路径参数
+//     url: '/request/params/name',
+//     // 请求体参数
+//     data:{
+//         name:'name'
+//     },
+//     // 查询字符串参数
+//     params:{
+//         data:'params'
+//     },
+//     headers:{
+//         data:'header'
+//     }
+// }).then(res=>{
+//     console.log(res.data)
+// })
